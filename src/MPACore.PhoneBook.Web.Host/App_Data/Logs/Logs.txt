@@ -1,0 +1,322 @@
+DEBUG 2018-06-28 14:11:01,509 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-06-28 14:11:01,775 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-06-28 14:11:01,793 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.Web.Host.Startup.PhoneBookWebHostModule, MPACore.PhoneBook.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-28 14:11:01,797 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.PhoneBookWebCoreModule, MPACore.PhoneBook.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-28 14:11:01,797 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.PhoneBookApplicationModule, MPACore.PhoneBook.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-28 14:11:01,797 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.PhoneBookCoreModule, MPACore.PhoneBook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-28 14:11:01,797 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-28 14:11:01,798 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-28 14:11:01,798 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-28 14:11:01,798 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-28 14:11:01,799 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.EntityFrameworkCore.PhoneBookEntityFrameworkModule, MPACore.PhoneBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-28 14:11:01,799 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-28 14:11:01,799 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-28 14:11:01,799 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-28 14:11:01,799 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-28 14:11:01,799 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-28 14:11:01,800 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-28 14:11:01,803 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-06-28 14:11:01,901 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-06-28 14:11:01,901 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-06-28 14:11:01,901 [1    ] o.Configuration.LanguageManagementConfig - Converted PhoneBook (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-06-28 14:11:01,901 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-06-28 14:11:02,260 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MPACore.PhoneBook.EntityFrameworkCore.PhoneBookDbContext, MPACore.PhoneBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-28 14:11:03,132 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-06-28 14:11:03,150 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-06-28 14:11:03,158 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-06-28 14:11:03,162 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PhoneBook
+DEBUG 2018-06-28 14:11:03,166 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-06-28 14:11:03,323 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-06-28 14:11:03,363 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2018-06-28 14:11:03,363 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-06-28 14:11:03,366 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Users.Dto.CreateUserDto
+DEBUG 2018-06-28 14:11:03,367 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Users.Dto.UserDto
+DEBUG 2018-06-28 14:11:03,367 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-06-28 14:11:03,367 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-06-28 14:11:03,367 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Roles.Dto.CreateRoleDto
+DEBUG 2018-06-28 14:11:03,367 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Roles.Dto.PermissionDto
+DEBUG 2018-06-28 14:11:03,368 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Roles.Dto.RoleDto
+DEBUG 2018-06-28 14:11:03,368 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.PhoneBooks.Dtos.PersonListDto
+DEBUG 2018-06-28 14:11:03,368 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-06-28 14:11:03,368 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.MultiTenancy.Dto.TenantDto
+INFO  2018-06-28 14:11:07,823 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2018-06-28 14:11:07,823 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-06-28 14:11:07,903 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 90.3346ms 200 
+INFO  2018-06-28 14:11:10,971 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action MPACore.PhoneBook.Web.Host.Controllers.HomeController.Index (MPACore.PhoneBook.Web.Host)
+INFO  2018-06-28 14:11:11,812 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACore.PhoneBook.Web.Host.Controllers.HomeController.Index (MPACore.PhoneBook.Web.Host) - Validation state: Valid
+INFO  2018-06-28 14:11:11,818 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MPACore.PhoneBook.Web.Host.Controllers.HomeController.Index (MPACore.PhoneBook.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 2.1578ms.
+INFO  2018-06-28 14:11:12,054 [6    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-06-28 14:11:12,068 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.Web.Host.Controllers.HomeController.Index (MPACore.PhoneBook.Web.Host) in 1091.788ms
+INFO  2018-06-28 14:11:12,086 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2018-06-28 14:11:12,091 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4278.5119ms 302 
+INFO  2018-06-28 14:11:12,125 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 39.0211ms 200 text/html
+INFO  2018-06-28 14:11:12,152 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-06-28 14:11:12,154 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-06-28 14:11:12,163 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2018-06-28 14:11:12,164 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-06-28 14:11:12,166 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2018-06-28 14:11:12,181 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2018-06-28 14:11:12,185 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2018-06-28 14:11:12,187 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2018-06-28 14:11:12,191 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 40.5466ms 304 application/javascript
+INFO  2018-06-28 14:11:12,194 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 36.2633ms 304 application/javascript
+INFO  2018-06-28 14:11:12,200 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 43.593ms 304 text/css
+INFO  2018-06-28 14:11:12,217 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'E:\C#\ABP\MPACore.PhoneBook\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2018-06-28 14:11:12,228 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 62.717ms 200 application/javascript
+INFO  2018-06-28 14:11:12,230 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'E:\C#\ABP\MPACore.PhoneBook\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2018-06-28 14:11:12,240 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 76.8547ms 200 application/javascript
+INFO  2018-06-28 14:11:12,384 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-06-28 14:11:12,390 [7    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2018-06-28 14:11:12,592 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 206.6375ms 200 application/json;charset=utf-8
+INFO  2018-06-28 14:13:17,497 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Person/CreateOrUpdatePersonAsync application/json 133
+INFO  2018-06-28 14:13:17,505 [21   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-06-28 14:13:17,509 [21   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-06-28 14:13:17,515 [21   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2018-06-28 14:13:17,555 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "CreateOrUpdatePersonAsync", controller = "Person"}. Executing action MPACore.PhoneBook.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (MPACore.PhoneBook.Application)
+INFO  2018-06-28 14:13:17,557 [21   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-06-28 14:13:17,560 [21   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-06-28 14:13:18,172 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACore.PhoneBook.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (MPACore.PhoneBook.Application) with arguments (MPACore.PhoneBook.PhoneBooks.Dtos.CreateOrUpdatePersonInput) - Validation state: Valid
+ERROR 2018-06-28 14:13:18,447 [23   ] Mvc.ExceptionHandling.AbpExceptionFilter - There is no such an entity. Entity type: MPACore.PhoneBook.PhoneBooks.Persons.Person, id: 0
+Abp.Domain.Entities.EntityNotFoundException: There is no such an entity. Entity type: MPACore.PhoneBook.PhoneBooks.Persons.Person, id: 0
+   at Abp.Domain.Repositories.AbpRepositoryBase`2.GetAsync(TPrimaryKey id) in D:\Github\aspnetboilerplate\src\Abp\Domain\Repositories\AbpRepositoryBase.cs:line 86
+   at Abp.Threading.InternalAsyncHelper.AwaitTaskWithPostActionAndFinallyAndGetResult[T](Task`1 actualReturnValue, Func`1 postAction, Action`1 finalAction)
+   at MPACore.PhoneBook.PhoneBooks.PersonAppService.UpdatePersonAsync(PersonEditDto input) in E:\C#\ABP\MPACore.PhoneBook\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Application\PhoneBooks\PersonAppService.cs:line 75
+   at MPACore.PhoneBook.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync(CreateOrUpdatePersonInput input) in E:\C#\ABP\MPACore.PhoneBook\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Application\PhoneBooks\PersonAppService.cs:line 64
+   at lambda_method(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2018-06-28 14:13:18,830 [23   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-06-28 14:13:18,849 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (MPACore.PhoneBook.Application) in 1292.5043ms
+INFO  2018-06-28 14:13:18,854 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1356.6642ms 404 application/json; charset=utf-8
+INFO  2018-06-28 14:14:52,203 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Person/CreateOrUpdatePersonAsync application/json 136
+INFO  2018-06-28 14:14:52,206 [21   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-06-28 14:14:52,217 [21   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-06-28 14:14:52,225 [21   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2018-06-28 14:14:52,234 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "CreateOrUpdatePersonAsync", controller = "Person"}. Executing action MPACore.PhoneBook.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (MPACore.PhoneBook.Application)
+INFO  2018-06-28 14:14:52,235 [21   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-06-28 14:14:52,237 [21   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-06-28 14:14:52,271 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACore.PhoneBook.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (MPACore.PhoneBook.Application) with arguments (MPACore.PhoneBook.PhoneBooks.Dtos.CreateOrUpdatePersonInput) - Validation state: Valid
+ERROR 2018-06-28 14:14:52,441 [12   ] Mvc.ExceptionHandling.AbpExceptionFilter - There is no such an entity. Entity type: MPACore.PhoneBook.PhoneBooks.Persons.Person, id: 1111
+Abp.Domain.Entities.EntityNotFoundException: There is no such an entity. Entity type: MPACore.PhoneBook.PhoneBooks.Persons.Person, id: 1111
+   at Abp.Domain.Repositories.AbpRepositoryBase`2.GetAsync(TPrimaryKey id) in D:\Github\aspnetboilerplate\src\Abp\Domain\Repositories\AbpRepositoryBase.cs:line 86
+   at Abp.Threading.InternalAsyncHelper.AwaitTaskWithPostActionAndFinallyAndGetResult[T](Task`1 actualReturnValue, Func`1 postAction, Action`1 finalAction)
+   at MPACore.PhoneBook.PhoneBooks.PersonAppService.UpdatePersonAsync(PersonEditDto input) in E:\C#\ABP\MPACore.PhoneBook\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Application\PhoneBooks\PersonAppService.cs:line 75
+   at MPACore.PhoneBook.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync(CreateOrUpdatePersonInput input) in E:\C#\ABP\MPACore.PhoneBook\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Application\PhoneBooks\PersonAppService.cs:line 64
+   at lambda_method(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2018-06-28 14:14:52,443 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-06-28 14:14:52,445 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (MPACore.PhoneBook.Application) in 209.7365ms
+INFO  2018-06-28 14:14:52,450 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 254.0014ms 404 application/json; charset=utf-8
+INFO  2018-06-28 14:15:20,835 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Person/CreateOrUpdatePersonAsync application/json 133
+INFO  2018-06-28 14:15:20,842 [27   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-06-28 14:15:20,846 [27   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-06-28 14:15:20,851 [27   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2018-06-28 14:15:20,856 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "CreateOrUpdatePersonAsync", controller = "Person"}. Executing action MPACore.PhoneBook.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (MPACore.PhoneBook.Application)
+INFO  2018-06-28 14:15:20,857 [27   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-06-28 14:15:20,861 [27   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-06-28 14:15:20,884 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACore.PhoneBook.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (MPACore.PhoneBook.Application) with arguments (MPACore.PhoneBook.PhoneBooks.Dtos.CreateOrUpdatePersonInput) - Validation state: Valid
+ERROR 2018-06-28 14:15:21,059 [7    ] Mvc.ExceptionHandling.AbpExceptionFilter - There is no such an entity. Entity type: MPACore.PhoneBook.PhoneBooks.Persons.Person, id: 0
+Abp.Domain.Entities.EntityNotFoundException: There is no such an entity. Entity type: MPACore.PhoneBook.PhoneBooks.Persons.Person, id: 0
+   at Abp.Domain.Repositories.AbpRepositoryBase`2.GetAsync(TPrimaryKey id) in D:\Github\aspnetboilerplate\src\Abp\Domain\Repositories\AbpRepositoryBase.cs:line 86
+   at Abp.Threading.InternalAsyncHelper.AwaitTaskWithPostActionAndFinallyAndGetResult[T](Task`1 actualReturnValue, Func`1 postAction, Action`1 finalAction)
+   at MPACore.PhoneBook.PhoneBooks.PersonAppService.UpdatePersonAsync(PersonEditDto input) in E:\C#\ABP\MPACore.PhoneBook\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Application\PhoneBooks\PersonAppService.cs:line 75
+   at MPACore.PhoneBook.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync(CreateOrUpdatePersonInput input) in E:\C#\ABP\MPACore.PhoneBook\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Application\PhoneBooks\PersonAppService.cs:line 64
+   at lambda_method(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2018-06-28 14:15:21,063 [7    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-06-28 14:15:21,076 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (MPACore.PhoneBook.Application) in 207.2029ms
+INFO  2018-06-28 14:15:21,081 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 243.5166ms 404 application/json; charset=utf-8
+INFO  2018-06-28 14:16:41,913 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Person/CreateOrUpdatePersonAsync application/json 120
+INFO  2018-06-28 14:16:41,947 [7    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-06-28 14:16:41,949 [7    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-06-28 14:16:41,952 [7    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2018-06-28 14:16:41,957 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "CreateOrUpdatePersonAsync", controller = "Person"}. Executing action MPACore.PhoneBook.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (MPACore.PhoneBook.Application)
+INFO  2018-06-28 14:16:41,960 [7    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-06-28 14:16:41,962 [7    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-06-28 14:16:41,987 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACore.PhoneBook.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (MPACore.PhoneBook.Application) with arguments (MPACore.PhoneBook.PhoneBooks.Dtos.CreateOrUpdatePersonInput) - Validation state: Valid
+ERROR 2018-06-28 14:16:42,145 [7    ] Mvc.ExceptionHandling.AbpExceptionFilter - 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+===============================================================================================
+PersonEditDto -> Person (Destination member list)
+MPACore.PhoneBook.PhoneBooks.Dtos.PersonEditDto -> MPACore.PhoneBook.PhoneBooks.Persons.Person (Destination member list)
+
+Unmapped properties:
+IsDeleted
+DeleterUserId
+DeletionTime
+LastModificationTime
+LastModifierUserId
+CreationTime
+CreatorUserId
+
+AutoMapper.AutoMapperConfigurationException: 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+===============================================================================================
+PersonEditDto -> Person (Destination member list)
+MPACore.PhoneBook.PhoneBooks.Dtos.PersonEditDto -> MPACore.PhoneBook.PhoneBooks.Persons.Person (Destination member list)
+
+Unmapped properties:
+IsDeleted
+DeleterUserId
+DeletionTime
+LastModificationTime
+LastModifierUserId
+CreationTime
+CreatorUserId
+
+   at AutoMapper.ConfigurationValidator.AssertConfigurationIsValid(IEnumerable`1 typeMaps)
+   at lambda_method(Closure , PersonEditDto , Person , ResolutionContext )
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   at AutoMapper.Mapper.AutoMapper.IMapper.Map[TDestination](Object source)
+   at MPACore.PhoneBook.PhoneBooks.PersonAppService.CreatePersonAsync(PersonEditDto input) in E:\C#\ABP\MPACore.PhoneBook\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Application\PhoneBooks\PersonAppService.cs:line 81
+   at MPACore.PhoneBook.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync(CreateOrUpdatePersonInput input) in E:\C#\ABP\MPACore.PhoneBook\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Application\PhoneBooks\PersonAppService.cs:line 68
+   at lambda_method(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2018-06-28 14:16:42,156 [7    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-06-28 14:16:42,164 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (MPACore.PhoneBook.Application) in 199.4321ms
+INFO  2018-06-28 14:16:42,166 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 263.0315ms 500 application/json; charset=utf-8
+INFO  2018-06-28 14:17:06,668 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Person/CreateOrUpdatePersonAsync application/json-patch+json 120
+INFO  2018-06-28 14:17:06,670 [21   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-06-28 14:17:06,674 [21   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-06-28 14:17:06,675 [21   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2018-06-28 14:17:06,682 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "CreateOrUpdatePersonAsync", controller = "Person"}. Executing action MPACore.PhoneBook.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (MPACore.PhoneBook.Application)
+INFO  2018-06-28 14:17:06,685 [21   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-06-28 14:17:06,686 [21   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-06-28 14:17:06,711 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACore.PhoneBook.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (MPACore.PhoneBook.Application) with arguments (MPACore.PhoneBook.PhoneBooks.Dtos.CreateOrUpdatePersonInput) - Validation state: Valid
+ERROR 2018-06-28 14:17:06,810 [21   ] Mvc.ExceptionHandling.AbpExceptionFilter - 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+===============================================================================================
+PersonEditDto -> Person (Destination member list)
+MPACore.PhoneBook.PhoneBooks.Dtos.PersonEditDto -> MPACore.PhoneBook.PhoneBooks.Persons.Person (Destination member list)
+
+Unmapped properties:
+IsDeleted
+DeleterUserId
+DeletionTime
+LastModificationTime
+LastModifierUserId
+CreationTime
+CreatorUserId
+
+AutoMapper.AutoMapperConfigurationException: 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+===============================================================================================
+PersonEditDto -> Person (Destination member list)
+MPACore.PhoneBook.PhoneBooks.Dtos.PersonEditDto -> MPACore.PhoneBook.PhoneBooks.Persons.Person (Destination member list)
+
+Unmapped properties:
+IsDeleted
+DeleterUserId
+DeletionTime
+LastModificationTime
+LastModifierUserId
+CreationTime
+CreatorUserId
+
+   at AutoMapper.ConfigurationValidator.AssertConfigurationIsValid(IEnumerable`1 typeMaps)
+   at lambda_method(Closure , PersonEditDto , Person , ResolutionContext )
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   at AutoMapper.Mapper.AutoMapper.IMapper.Map[TDestination](Object source)
+   at MPACore.PhoneBook.PhoneBooks.PersonAppService.CreatePersonAsync(PersonEditDto input) in E:\C#\ABP\MPACore.PhoneBook\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Application\PhoneBooks\PersonAppService.cs:line 81
+   at MPACore.PhoneBook.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync(CreateOrUpdatePersonInput input) in E:\C#\ABP\MPACore.PhoneBook\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Application\PhoneBooks\PersonAppService.cs:line 68
+   at lambda_method(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2018-06-28 14:17:06,813 [21   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-06-28 14:17:06,815 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (MPACore.PhoneBook.Application) in 130.1528ms
+INFO  2018-06-28 14:17:06,817 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 152.3316ms 500 application/json; charset=utf-8
+INFO  2018-06-28 14:17:33,790 [35   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Person/CreateOrUpdatePersonAsync application/json-patch+json 120
+INFO  2018-06-28 14:17:33,796 [35   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-06-28 14:17:33,806 [35   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-06-28 14:17:33,809 [35   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2018-06-28 14:17:33,813 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "CreateOrUpdatePersonAsync", controller = "Person"}. Executing action MPACore.PhoneBook.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (MPACore.PhoneBook.Application)
+INFO  2018-06-28 14:17:33,814 [35   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-06-28 14:17:33,816 [35   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2018-06-28 14:17:33,838 [35   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACore.PhoneBook.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (MPACore.PhoneBook.Application) with arguments (MPACore.PhoneBook.PhoneBooks.Dtos.CreateOrUpdatePersonInput) - Validation state: Valid
+ERROR 2018-06-28 14:18:24,442 [21   ] Mvc.ExceptionHandling.AbpExceptionFilter - 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+===============================================================================================
+PersonEditDto -> Person (Destination member list)
+MPACore.PhoneBook.PhoneBooks.Dtos.PersonEditDto -> MPACore.PhoneBook.PhoneBooks.Persons.Person (Destination member list)
+
+Unmapped properties:
+IsDeleted
+DeleterUserId
+DeletionTime
+LastModificationTime
+LastModifierUserId
+CreationTime
+CreatorUserId
+
+AutoMapper.AutoMapperConfigurationException: 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+===============================================================================================
+PersonEditDto -> Person (Destination member list)
+MPACore.PhoneBook.PhoneBooks.Dtos.PersonEditDto -> MPACore.PhoneBook.PhoneBooks.Persons.Person (Destination member list)
+
+Unmapped properties:
+IsDeleted
+DeleterUserId
+DeletionTime
+LastModificationTime
+LastModifierUserId
+CreationTime
+CreatorUserId
+
+   at AutoMapper.ConfigurationValidator.AssertConfigurationIsValid(IEnumerable`1 typeMaps)
+   at lambda_method(Closure , PersonEditDto , Person , ResolutionContext )
+   at lambda_method(Closure , Object , Object , ResolutionContext )
+   at AutoMapper.Mapper.AutoMapper.IMapper.Map[TDestination](Object source)
+   at MPACore.PhoneBook.PhoneBooks.PersonAppService.CreatePersonAsync(PersonEditDto input) in E:\C#\ABP\MPACore.PhoneBook\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Application\PhoneBooks\PersonAppService.cs:line 81
+   at MPACore.PhoneBook.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync(CreateOrUpdatePersonInput input) in E:\C#\ABP\MPACore.PhoneBook\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Application\PhoneBooks\PersonAppService.cs:line 68
+   at lambda_method(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2018-06-28 14:18:24,447 [21   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-06-28 14:18:24,450 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.PhoneBooks.PersonAppService.CreateOrUpdatePersonAsync (MPACore.PhoneBook.Application) in 50634.1211ms
+INFO  2018-06-28 14:18:24,453 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 50662.8292ms 500 application/json; charset=utf-8
