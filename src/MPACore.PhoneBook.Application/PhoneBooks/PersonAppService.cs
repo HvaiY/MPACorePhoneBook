@@ -56,6 +56,24 @@ namespace MPACore.PhoneBook.PhoneBooks
                 throw new UserFriendlyException("没有这个人，你是不是不记得他的Id了 ");
             }
         }
+       
+        public async Task<GetPersonForEditOutput> GetPersonForEditAsync(NullableIdDto input)
+        {
+            var output = new GetPersonForEditOutput();
+            PersonEditDto peronEditDto;
+            if (input.Id.HasValue)
+            {
+                var entity = await _repository.GetAsync(input.Id.Value);
+                peronEditDto = entity.MapTo<PersonEditDto>();
+            }
+            else
+            {
+                peronEditDto = new PersonEditDto();
+            }
+
+            output.Person = peronEditDto;
+            return output;
+        }
 
         public async Task CreateOrUpdatePersonAsync(CreateOrUpdatePersonInput input)
         {
