@@ -142,5 +142,11 @@
     "inputFiles": [
       "wwwroot/view-resources/Views/Shared/Components/TenantChange/Default.js"
     ]
+  },
+  {
+    "outputFileName": "#\\ABP\\MPACore.PhoneBook\\MPACore.PhoneBook\\aspnet-core\\src\\MPACore.PhoneBook.Web.Mvc\\wwwroot\\view-resources\\Views\\Persons\\Index.min.js",
+    "inputFiles": [
+      "#\\ABP\\MPACore.PhoneBook\\MPACore.PhoneBook\\aspnet-core\\src\\MPACore.PhoneBook.Web.Mvc\\wwwroot\\view-resources\\Views\\Persons\\Index.js"
+    ]
   }
 ]

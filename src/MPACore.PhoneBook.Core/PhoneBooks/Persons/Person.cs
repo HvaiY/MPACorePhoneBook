@@ -10,13 +10,13 @@ namespace MPACore.PhoneBook.PhoneBooks.Persons
     /// <summary>
     /// 人员
     /// </summary>
-    public class Person:FullAuditedEntity //继承包含所有基础属性的类Id 创建时间  修改时间  删除时间等字段信息
+    public class Person:FullAuditedEntity //继承包含所有基础属性的类Id 创建时间  修改时间 是否已删除标识 删除时间等字段信息
     {
         /// <summary>
         /// 姓名
         /// </summary>
         [Required]
-        [MaxLength(PhoneBookConsts.MaxNameLength)]
+        [MaxLength(PhoneBookConsts.MaxNameLength)] //常量：PhoneBookConsts.MaxNameLength 存在于本项目的PhoneBookConsts.cs中
         public string Name { get; set; }
         /// <summary>
         /// 邮箱地址

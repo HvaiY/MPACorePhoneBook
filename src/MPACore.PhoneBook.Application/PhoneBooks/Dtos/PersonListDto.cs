@@ -21,7 +21,7 @@ namespace MPACore.PhoneBook.PhoneBooks.Dtos
     /// <summary>
     /// Person映射的Dto
     /// </summary>
-    [AutoMapFrom(typeof(Person))]
+    [AutoMapFrom(typeof(Person))] //自动映射 Person为PersonListDto
     public class PersonListDto : FullAuditedEntityDto //Dto的属性继承
     {
         /// <summary>

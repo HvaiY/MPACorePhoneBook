@@ -22,6 +22,7 @@ namespace MPACore.PhoneBook.EntityFrameworkCore
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            //模型创建的时候自定义表名称
             modelBuilder.Entity<Person>().ToTable("Person", "PB");
             modelBuilder.Entity<PhoneNumber>().ToTable("PhoneNumber", "PB");
             base.OnModelCreating(modelBuilder);

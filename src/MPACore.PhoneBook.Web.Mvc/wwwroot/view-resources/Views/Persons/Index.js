@@ -1,7 +1,7 @@
 ﻿(function () {
     $(function () {
         //Localhost:2222/Ipersonappservice 下面就类似这种了
-        var _personService = abp.services.app.person; //类型于直接访问了Person存储
+        var _personService = abp.services.app.person; //类型于直接访问了Person服务了
 
         var _$modal = $("#PersonCreateModal");
         var _$form = _$modal.find('form');

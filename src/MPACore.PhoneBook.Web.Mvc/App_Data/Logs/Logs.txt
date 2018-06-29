@@ -9834,3 +9834,415 @@ DEBUG 2018-06-29 11:22:01,592 [7    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub -
 DEBUG 2018-06-29 11:22:01,592 [10   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"e5ZZ7WMiiQ_qJW8YPAXqgQ","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-06-29T11:22:01.5076242+08:00","Properties":{}}
 DEBUG 2018-06-29 11:25:24,327 [23   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: kbv0dMEDje56AeOLHAshcA
 INFO  2018-06-29 11:25:24,342 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 202973.4989ms 200 text/event-stream
+DEBUG 2018-06-29 15:11:12,417 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-06-29 15:11:12,533 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-06-29 15:11:12,549 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.Web.Startup.PhoneBookWebMvcModule, MPACore.PhoneBook.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-29 15:11:12,552 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.PhoneBookWebCoreModule, MPACore.PhoneBook.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-29 15:11:12,552 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.PhoneBookApplicationModule, MPACore.PhoneBook.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-29 15:11:12,553 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.PhoneBookCoreModule, MPACore.PhoneBook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-29 15:11:12,553 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-29 15:11:12,553 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-29 15:11:12,553 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-29 15:11:12,554 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-29 15:11:12,554 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.EntityFrameworkCore.PhoneBookEntityFrameworkModule, MPACore.PhoneBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-29 15:11:12,554 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-29 15:11:12,554 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-29 15:11:12,555 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-29 15:11:12,555 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-29 15:11:12,555 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-29 15:11:12,555 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-29 15:11:12,558 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-06-29 15:11:12,629 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-06-29 15:11:12,629 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-06-29 15:11:12,629 [1    ] o.Configuration.LanguageManagementConfig - Converted PhoneBook (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-06-29 15:11:12,629 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-06-29 15:11:12,927 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MPACore.PhoneBook.EntityFrameworkCore.PhoneBookDbContext, MPACore.PhoneBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-29 15:11:13,993 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-06-29 15:11:14,020 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-06-29 15:11:14,032 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-06-29 15:11:14,038 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PhoneBook
+DEBUG 2018-06-29 15:11:14,042 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-06-29 15:11:14,263 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-06-29 15:11:14,309 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 15 classes define auto mapping attributes
+DEBUG 2018-06-29 15:11:14,310 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-06-29 15:11:14,313 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Users.Dto.CreateUserDto
+DEBUG 2018-06-29 15:11:14,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Users.Dto.UserDto
+DEBUG 2018-06-29 15:11:14,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-06-29 15:11:14,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-06-29 15:11:14,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Roles.Dto.CreateRoleDto
+DEBUG 2018-06-29 15:11:14,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Roles.Dto.PermissionDto
+DEBUG 2018-06-29 15:11:14,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Roles.Dto.RoleDto
+DEBUG 2018-06-29 15:11:14,315 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.PhoneNumber.PhoneNumberEditDto
+DEBUG 2018-06-29 15:11:14,315 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.PhoneNumber.PhoneNumberListDto
+DEBUG 2018-06-29 15:11:14,315 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.PhoneBooks.Dtos.PersonEditDto
+DEBUG 2018-06-29 15:11:14,315 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.PhoneBooks.Dtos.PersonListDto
+DEBUG 2018-06-29 15:11:14,315 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-06-29 15:11:14,315 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.MultiTenancy.Dto.TenantDto
+DEBUG 2018-06-29 15:11:14,315 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+INFO  2018-06-29 15:11:18,742 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:62114/  0
+INFO  2018-06-29 15:11:18,742 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2018-06-29 15:11:18,821 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 84.4329ms 200 
+INFO  2018-06-29 15:11:22,280 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action MPACore.PhoneBook.Web.Controllers.HomeController.Index (MPACore.PhoneBook.Web.Mvc)
+INFO  2018-06-29 15:11:22,332 [10   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2018-06-29 15:11:22,446 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACore.PhoneBook.Web.Controllers.HomeController.Index (MPACore.PhoneBook.Web.Mvc) - Validation state: Valid
+INFO  2018-06-29 15:11:22,455 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MPACore.PhoneBook.Web.Controllers.HomeController.Index (MPACore.PhoneBook.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 4.8151ms.
+INFO  2018-06-29 15:11:27,256 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2018-06-29 15:11:30,080 [7    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 7349.0205ms.
+INFO  2018-06-29 15:11:30,083 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap/dist/css/bootstrap.css?v=fmMNkMcjSw3xcp9iuPnku_ryk9kaWgrEbfJfKmdZ45o  
+INFO  2018-06-29 15:11:30,085 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/roboto.css?v=DWPiEyLnt8XZ68WQeudmZPGSejowhmQNUUhaX8dYF1Q  
+INFO  2018-06-29 15:11:30,089 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/toastr/toastr.css?v=W8a9WvLyUO7CXtOC4f9LoUMwkywM7JSq-Xm5kNsYW08  
+INFO  2018-06-29 15:11:30,102 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.Web.Controllers.HomeController.Index (MPACore.PhoneBook.Web.Mvc) in 7813.4227ms
+INFO  2018-06-29 15:11:30,118 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/toastr/toastr.css was not modified
+INFO  2018-06-29 15:11:30,122 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /fonts/roboto/roboto.css was not modified
+INFO  2018-06-29 15:11:30,123 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/bootstrap/dist/css/bootstrap.css was not modified
+INFO  2018-06-29 15:11:30,128 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 42.8098ms 304 text/css
+INFO  2018-06-29 15:11:30,130 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 47.9208ms 304 text/css
+INFO  2018-06-29 15:11:30,131 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 11396.6785ms 200 text/html; charset=utf-8
+INFO  2018-06-29 15:11:30,134 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 43.741ms 304 text/css
+INFO  2018-06-29 15:11:30,142 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/material-icons/materialicons.css?v=2SsVsQpWRHM3EJ4D4MT4RRpiEXbEuK0vEjPxVr5P7Ek  
+INFO  2018-06-29 15:11:30,143 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css?v=l7wu43l7XpKWzFn29hiH8AFe4I_CNzbCPmaAQivPYMg  
+INFO  2018-06-29 15:11:30,146 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/famfamfam-flags/dist/sprite/famfamfam-flags.css was not modified
+INFO  2018-06-29 15:11:30,147 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /fonts/material-icons/materialicons.css was not modified
+INFO  2018-06-29 15:11:30,150 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap-select/dist/css/bootstrap-select.css?v=a7N4Jki3LzSbThclvqbu4nF45twcjuc772JGFhY9qwk  
+INFO  2018-06-29 15:11:30,153 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 17.5618ms 304 text/css
+INFO  2018-06-29 15:11:30,153 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.0718ms 304 text/css
+INFO  2018-06-29 15:11:30,165 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/bootstrap-select/dist/css/bootstrap-select.css was not modified
+INFO  2018-06-29 15:11:30,180 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/font-awesome/css/font-awesome.css?v=NuCn4IvuZXdBaFKJOAcsU2Q3ZpwbdFisd5dux4jkQ5w  
+INFO  2018-06-29 15:11:30,186 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 38.0597ms 304 text/css
+INFO  2018-06-29 15:11:30,190 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/font-awesome/css/font-awesome.css was not modified
+INFO  2018-06-29 15:11:30,194 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/themes/all-themes.css?v=XaAlkmhL9gA6mBxpcxGYAWxggxkIpRmT9qGbKejs6eA  
+INFO  2018-06-29 15:11:30,201 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Waves/dist/waves.css?v=0zP86LzXedNkkBjePtKrMTAPuIy6EzHfGlyYvsmGLBw  
+INFO  2018-06-29 15:11:30,204 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/themes/all-themes.css was not modified
+INFO  2018-06-29 15:11:30,206 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 15.6923ms 304 text/css
+INFO  2018-06-29 15:11:30,208 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/Waves/dist/waves.css was not modified
+INFO  2018-06-29 15:11:30,210 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 55.5015ms 304 text/css
+INFO  2018-06-29 15:11:30,213 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/style.css?v=151KUrNx-cFGpjXC7QZ8WbWSo-mQTLO0htvGyBUR_i8  
+INFO  2018-06-29 15:11:30,218 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/materialize.css?v=OdWlipUYj8b9Oa4RyT45njteIcxH-4pGocqe0r0V8js  
+INFO  2018-06-29 15:11:30,221 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 48.372ms 304 text/css
+INFO  2018-06-29 15:11:30,222 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/style.css was not modified
+INFO  2018-06-29 15:11:30,230 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/materialize.css was not modified
+INFO  2018-06-29 15:11:30,239 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16.3585ms 304 text/css
+INFO  2018-06-29 15:11:30,240 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 50.7588ms 304 text/css
+INFO  2018-06-29 15:11:30,244 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/animate.css/animate.css?v=00w68NO3TLuHjKRHJmjrrgJBDtG_6OhbJEu1gtHcsuo  
+INFO  2018-06-29 15:11:30,256 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/animate.css/animate.css was not modified
+INFO  2018-06-29 15:11:30,261 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 44.9835ms 304 text/css
+INFO  2018-06-29 15:11:30,294 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/morris.js/morris.css?v=szHusaozbQctTn4FX-3l5E0A5zoxz7-ne4fr8NgWJlw  
+INFO  2018-06-29 15:11:30,294 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/_Layout.css?v=uq7unI_U0xZr0Pbyzeu6KfbJKHVFuv0wNJ4CrrhQknw  
+INFO  2018-06-29 15:11:30,298 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/morris.js/morris.css was not modified
+INFO  2018-06-29 15:11:30,305 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Shared/_Layout.css was not modified
+INFO  2018-06-29 15:11:30,328 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 11.0233ms 304 text/css
+INFO  2018-06-29 15:11:30,371 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 34.1471ms 304 text/css
+INFO  2018-06-29 15:11:30,466 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-validation/dist/jquery.validate.js?v=KuzD50lDGNI5jq_ipt4hwDpSJk3fhseTR1jdvaBoZLs  
+INFO  2018-06-29 15:11:30,467 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/images/user.png  
+INFO  2018-06-29 15:11:30,471 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery/dist/jquery.js?v=DZAnKJ_6XZ9si04Hgrsxu_8s717jcIzLy3oi35EouyE  
+INFO  2018-06-29 15:11:30,477 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery-validation/dist/jquery.validate.js was not modified
+INFO  2018-06-29 15:11:30,481 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/json2/json2.js?v=EZJ68U7eUi8uSP0MRRUalYten2eOlhREE9kJOIbIeYg  
+INFO  2018-06-29 15:11:30,497 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/moment/min/moment-with-locales.js?v=7CN4bWPV0U57HDA4YjdCBKCAynhqdWErjNn-5rrsW_I  
+INFO  2018-06-29 15:11:30,499 [21   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery/dist/jquery.js was not modified
+INFO  2018-06-29 15:11:30,504 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap/dist/js/bootstrap.js?v=Cr6N6zNN4bp0OwTQOZ6Z66M2r-2dpy_EwKMCyZ-SOMg  
+INFO  2018-06-29 15:11:30,516 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /images/user.png was not modified
+INFO  2018-06-29 15:11:30,520 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 37.9502ms 304 application/javascript
+INFO  2018-06-29 15:11:30,527 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/moment/min/moment-with-locales.js was not modified
+INFO  2018-06-29 15:11:30,530 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 106.692ms 304 application/javascript
+INFO  2018-06-29 15:11:30,542 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/bootstrap/dist/js/bootstrap.js was not modified
+INFO  2018-06-29 15:11:30,548 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/material-icons/materialicons.woff2  
+INFO  2018-06-29 15:11:30,553 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 167.8929ms 304 application/javascript
+INFO  2018-06-29 15:11:30,557 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0  
+INFO  2018-06-29 15:11:30,561 [21   ] NetCore.StaticFiles.StaticFileMiddleware - The file /fonts/material-icons/materialicons.woff2 was not modified
+INFO  2018-06-29 15:11:30,572 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/json2/json2.js was not modified
+INFO  2018-06-29 15:11:30,577 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 202.8904ms 304 application/javascript
+INFO  2018-06-29 15:11:30,581 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 42.4347ms 304 font/woff2
+INFO  2018-06-29 15:11:30,594 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/font-awesome/fonts/fontawesome-webfont.woff2 was not modified
+INFO  2018-06-29 15:11:30,605 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png  
+INFO  2018-06-29 15:11:30,609 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2  
+INFO  2018-06-29 15:11:30,612 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/blockUI/jquery.blockUI.js?v=oQaw-JJuUcJQ9QVYMcFnPxICDT-hv8-kuxT2FNzTGhc  
+INFO  2018-06-29 15:11:30,618 [21   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/famfamfam-flags/dist/sprite/famfamfam-flags.png was not modified
+INFO  2018-06-29 15:11:30,620 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /fonts/roboto/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2 was not modified
+INFO  2018-06-29 15:11:30,624 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 85.9792ms 304 font/woff2
+INFO  2018-06-29 15:11:30,644 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 37.4977ms 304 image/png
+INFO  2018-06-29 15:11:30,657 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/spin.js/spin.js?v=GySbz3oZXNlwoawo5PpYy0iM38B-q3jyi_HLw00uxy0  
+INFO  2018-06-29 15:11:30,658 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 175.6748ms 304 application/javascript
+INFO  2018-06-29 15:11:30,660 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/images/user-img-background.jpg  
+INFO  2018-06-29 15:11:30,670 [21   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/spin.js/spin.js was not modified
+INFO  2018-06-29 15:11:30,672 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /images/user-img-background.jpg was not modified
+INFO  2018-06-29 15:11:30,678 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/sweetalert/dist/sweetalert.min.js?v=aPktydUv1rN3mouQeXoKi3ioFTIQlULuqYeoTAA2ihY  
+INFO  2018-06-29 15:11:30,683 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14.373ms 304 image/jpeg
+INFO  2018-06-29 15:11:30,685 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 187.1638ms 304 image/png
+INFO  2018-06-29 15:11:30,689 [27   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/blockUI/jquery.blockUI.js was not modified
+INFO  2018-06-29 15:11:30,697 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 26.952ms 304 application/javascript
+INFO  2018-06-29 15:11:30,702 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/CWB0XYA8bzo0kSThX0UTuA.woff2  
+INFO  2018-06-29 15:11:30,705 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 96.0123ms 304 application/javascript
+INFO  2018-06-29 15:11:30,706 [17   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/sweetalert/dist/sweetalert.min.js was not modified
+INFO  2018-06-29 15:11:30,708 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /fonts/roboto/CWB0XYA8bzo0kSThX0UTuA.woff2 was not modified
+INFO  2018-06-29 15:11:30,716 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/spin.js/jquery.spin.js?v=EG38bUU5b2M64hy9cNAzu_cQBEsiBYsDifOcoHqNd2k  
+INFO  2018-06-29 15:11:30,721 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-slimscroll/jquery.slimscroll.js?v=4K6ZHzwMYR5_eU2SeDIaByus_qki9IFY8hmxl5U6D1Y  
+INFO  2018-06-29 15:11:30,724 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 79.5813ms 304 application/javascript
+INFO  2018-06-29 15:11:30,725 [21   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/spin.js/jquery.spin.js was not modified
+INFO  2018-06-29 15:11:30,732 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Waves/dist/waves.js?v=Lar7zQhqgdoUsaqhuwkgnWgsC-eRWIxHhJPV-QtrDog  
+INFO  2018-06-29 15:11:30,737 [17   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/Waves/dist/waves.js was not modified
+INFO  2018-06-29 15:11:30,745 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 12.2204ms 304 application/javascript
+INFO  2018-06-29 15:11:30,747 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 30.1141ms 304 application/javascript
+INFO  2018-06-29 15:11:30,752 [27   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery-slimscroll/jquery.slimscroll.js was not modified
+INFO  2018-06-29 15:11:30,765 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 46.4182ms 304 application/javascript
+INFO  2018-06-29 15:11:30,770 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 40.4368ms 304 font/woff2
+INFO  2018-06-29 15:11:30,773 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 23.7041ms 304 font/woff2
+INFO  2018-06-29 15:11:30,775 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/push.js/push.js?v=HDxbpm8oBKwe1bmX9Z1SahYYA7zEbc1dk7LfopvOvoE  
+INFO  2018-06-29 15:11:30,777 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/toastr/toastr.js?v=C7DJ6LzTt1Hvj9fd-yRnySs3I4T2B8XmQ3TqXQjc00g  
+INFO  2018-06-29 15:11:30,778 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/push.js/push.js was not modified
+INFO  2018-06-29 15:11:30,780 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js?v=ImopdkB8alCil1HigOwW3CDqWKsLZXyplf7TXBbjRnE  
+INFO  2018-06-29 15:11:30,782 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/abp.js?v=FGfi3RfHf06ftjVdq2JaO16cF9CPZNPvujmuYBacXxg  
+INFO  2018-06-29 15:11:30,785 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/toastr/toastr.js was not modified
+INFO  2018-06-29 15:11:30,788 [21   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/abp.js was not modified
+INFO  2018-06-29 15:11:30,789 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.5631ms 304 application/javascript
+INFO  2018-06-29 15:11:30,793 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 17.5621ms 304 application/javascript
+INFO  2018-06-29 15:11:30,795 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 39.1604ms 304 application/javascript
+INFO  2018-06-29 15:11:30,796 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js?v=lMgLZMlGsipWDxpvEPxfKVREzRedV_ygRnTj2kvADpw  
+INFO  2018-06-29 15:11:30,802 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap-select/dist/js/bootstrap-select.js?v=_KDPX2Vvqq8sySMxlLNJxt9j6Cmb8i_xp602ozhYxzI  
+INFO  2018-06-29 15:11:30,814 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js?v=Y3zoG-hSFKmbS3BHKo_wFWRPbyzJXKoNrnF73uFdtqU  
+INFO  2018-06-29 15:11:30,820 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js?v=guLvtVJMvLobKpGAlQigrGWMQ1sGQo4yTL46zjGQUUY  
+INFO  2018-06-29 15:11:30,826 [27   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js was not modified
+INFO  2018-06-29 15:11:30,836 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js was not modified
+INFO  2018-06-29 15:11:30,845 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 31.5037ms 304 application/javascript
+INFO  2018-06-29 15:11:30,848 [25   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js was not modified
+INFO  2018-06-29 15:11:30,850 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 62.3532ms 304 application/javascript
+INFO  2018-06-29 15:11:30,854 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/js/admin.js?v=EVe7kfOaz9IIbzAxojHn8QU2lv1sAlpN_v_9R5MU9mg  
+INFO  2018-06-29 15:11:30,856 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 39.8415ms 304 application/javascript
+INFO  2018-06-29 15:11:30,859 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js was not modified
+INFO  2018-06-29 15:11:30,860 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/bootstrap-select/dist/js/bootstrap-select.js was not modified
+INFO  2018-06-29 15:11:30,867 [27   ] NetCore.StaticFiles.StaticFileMiddleware - The file /js/admin.js was not modified
+INFO  2018-06-29 15:11:30,877 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 17.1264ms 304 application/javascript
+INFO  2018-06-29 15:11:30,883 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 95.0146ms 304 application/javascript
+INFO  2018-06-29 15:11:30,884 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-validation/src/localization/messages_zh_Hans.js  
+INFO  2018-06-29 15:11:30,886 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/_Layout.js?v=jOYc7_5N1zFKt3qTihQ-9Kc0wjSMXkAeHUXNyvn8sYo  
+INFO  2018-06-29 15:11:30,888 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Shared/_Layout.js was not modified
+INFO  2018-06-29 15:11:30,893 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.6073ms 304 application/javascript
+INFO  2018-06-29 15:11:30,896 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14.7664ms 404 
+INFO  2018-06-29 15:11:30,898 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/signalr-client/signalr.min.js?v=DeOex_tR7FzkV208FN2wnFJvIUIKXWsVjbW0171naJo  
+INFO  2018-06-29 15:11:30,902 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 177.6688ms 304 application/javascript
+INFO  2018-06-29 15:11:30,906 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/signalr-client/signalr.min.js was not modified
+INFO  2018-06-29 15:11:30,915 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636658818742662370  
+INFO  2018-06-29 15:11:30,919 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 10.8647ms 304 application/javascript
+INFO  2018-06-29 15:11:30,920 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636658818742662370  
+INFO  2018-06-29 15:11:30,927 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-countTo/jquery.countTo.js?v=AGGYFLOyVnIKn_2UCDl9D_5VWf8wHWCOtm9YU0P9g6I  
+INFO  2018-06-29 15:11:30,931 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery-countTo/jquery.countTo.js was not modified
+INFO  2018-06-29 15:11:30,935 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js?v=RJuGDX616JN_UziXsmKnth0alpECKCx0gtxKZVrZWxY  
+INFO  2018-06-29 15:11:30,939 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 11.2099ms 304 application/javascript
+INFO  2018-06-29 15:11:30,943 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/raphael/raphael.js?v=MPXjTSEImVJI1834JAHubdK7Lts1VTUPJmCQ9zKAjyA  
+INFO  2018-06-29 15:11:30,947 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js was not modified
+INFO  2018-06-29 15:11:30,948 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js?v=8bQpuR0dFdbi0KIM9VVSonDAxoXNRsdDAvuSZSI8Oyw  
+INFO  2018-06-29 15:11:30,953 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/raphael/raphael.js was not modified
+INFO  2018-06-29 15:11:30,956 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 136.6569ms 304 application/javascript
+INFO  2018-06-29 15:11:30,963 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/morris.js/morris.js?v=cQB75DEaDbn4oSiaWgdoh3TuZCHSO-kYdD_Ehka48Ro  
+INFO  2018-06-29 15:11:30,965 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13.7683ms 304 application/javascript
+INFO  2018-06-29 15:11:30,967 [18   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js was not modified
+INFO  2018-06-29 15:11:30,971 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/morris.js/morris.js was not modified
+INFO  2018-06-29 15:11:30,978 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 15.324ms 304 application/javascript
+INFO  2018-06-29 15:11:30,981 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/chart.js/dist/Chart.bundle.js?v=TQAtDUIU_0XtXZLNjMBV8noK8jNSngwHlgtC_PvsRAk  
+INFO  2018-06-29 15:11:30,987 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/chart.js/dist/Chart.bundle.js was not modified
+INFO  2018-06-29 15:11:30,997 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 21.2508ms 304 application/javascript
+INFO  2018-06-29 15:11:31,000 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 66.5155ms 304 application/javascript
+INFO  2018-06-29 15:11:31,003 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.js?v=t7kx8nPDixJ3ucbB9OBcTsCYhaSHvdrzJ54tfkmjjhI  
+INFO  2018-06-29 15:11:31,006 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.resize.js?v=i59RRvMkqw-28mDu6YRzKo77gmM7k9aPZMtcw45wgu4  
+INFO  2018-06-29 15:11:31,009 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/Flot/jquery.flot.resize.js was not modified
+INFO  2018-06-29 15:11:31,013 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.pie.js?v=RsEWYd9gdLG1bCIcU8j59Rkvf_1O7HtzoD1TRUs22cU  
+INFO  2018-06-29 15:11:31,018 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 27.0354ms 304 application/javascript
+INFO  2018-06-29 15:11:31,022 [26   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/Flot/jquery.flot.pie.js was not modified
+INFO  2018-06-29 15:11:31,034 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.categories.js?v=boFmSyjqeVxzSQb0qhVhRkCnWsf705mn-5CEBAaYNRo  
+INFO  2018-06-29 15:11:31,038 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2018-06-29 15:11:31,044 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/Flot/jquery.flot.categories.js was not modified
+INFO  2018-06-29 15:11:31,055 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 25.0943ms 304 application/javascript
+INFO  2018-06-29 15:11:31,061 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 22.5269ms 304 application/javascript
+INFO  2018-06-29 15:11:31,063 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.time.js?v=pYLIMq3HE4prBar2HxbrrCdHAfG-Sv6nfnOaHDS5xBo  
+INFO  2018-06-29 15:11:31,065 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-sparkline/dist/jquery.sparkline.js?v=k0LZZpXY4vJp6vbA5CL5bb20Ou0IO3Shz-J6U6Vq56c  
+INFO  2018-06-29 15:11:31,071 [26   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/Flot/jquery.flot.time.js was not modified
+INFO  2018-06-29 15:11:31,073 [26   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9.7562ms 304 application/javascript
+INFO  2018-06-29 15:11:31,084 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2018-06-29 15:11:31,088 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery-sparkline/dist/jquery.sparkline.js was not modified
+INFO  2018-06-29 15:11:31,095 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 33.3182ms 304 application/javascript
+INFO  2018-06-29 15:11:31,097 [18   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/Flot/jquery.flot.js was not modified
+INFO  2018-06-29 15:11:31,100 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Home/Index.js?v=tRGDdqeVjO63iaO1qvGPpKF2NuT2riEOyYovlY_otk0  
+INFO  2018-06-29 15:11:31,102 [20   ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Home/Index.js was not modified
+INFO  2018-06-29 15:11:31,105 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 97.3027ms 304 application/javascript
+INFO  2018-06-29 15:11:31,106 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.0662ms 304 application/javascript
+INFO  2018-06-29 15:11:31,112 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/js/main.js?v=Or9x-cFG7xQuzM6rsm13Mu2ucyrL4r3oR0duI0uktYk  
+INFO  2018-06-29 15:11:31,114 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /js/main.js was not modified
+INFO  2018-06-29 15:11:31,117 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 249.141ms 304 application/javascript
+INFO  2018-06-29 15:11:31,159 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - Validation state: Valid
+INFO  2018-06-29 15:11:31,203 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-validation/src/localization/messages_zh_Hans.js  
+INFO  2018-06-29 15:11:31,229 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 26.218ms 404 
+INFO  2018-06-29 15:11:31,257 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2018-06-29 15:11:31,560 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 398.0442ms.
+INFO  2018-06-29 15:11:31,567 [23   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-06-29 15:11:31,573 [23   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 485.1372ms
+INFO  2018-06-29 15:11:31,577 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 316.4916ms.
+INFO  2018-06-29 15:11:31,583 [23   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 694.5954ms 200 application/x-javascript; charset=utf-8
+INFO  2018-06-29 15:11:31,585 [11   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-06-29 15:11:31,603 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 542.2719ms
+INFO  2018-06-29 15:11:31,608 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 701.4726ms 200 application/x-javascript
+INFO  2018-06-29 15:11:31,610 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2018-06-29 15:11:31,656 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 42.8639ms 200 application/json
+INFO  2018-06-29 15:11:31,972 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2018-06-29 15:11:31,978 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.3469ms 200 application/json
+INFO  2018-06-29 15:11:32,009 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=vb4uSjRilZph00HcFYDMWA  
+INFO  2018-06-29 15:11:32,053 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/signalr?id=vb4uSjRilZph00HcFYDMWA text/plain;charset=UTF-8 32
+INFO  2018-06-29 15:11:32,100 [22   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 46.7457ms 200 text/plain
+INFO  2018-06-29 15:11:32,106 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/signalr?id=vb4uSjRilZph00HcFYDMWA text/plain;charset=UTF-8 65
+INFO  2018-06-29 15:11:32,114 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9.1479ms 200 text/plain
+INFO  2018-06-29 15:11:32,142 [19   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2018-06-29 15:11:32,168 [19   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"vb4uSjRilZph00HcFYDMWA","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-06-29T15:11:32.1592605+08:00","Properties":{}}
+DEBUG 2018-06-29 15:11:32,221 [19   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: vb4uSjRilZph00HcFYDMWA
+INFO  2018-06-29 15:12:11,785 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Persons  
+INFO  2018-06-29 15:12:11,797 [28   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Persons", area = ""}. Executing action MPACore.PhoneBook.Web.Mvc.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc)
+WARN  2018-06-29 15:12:12,107 [19   ] Mvc.ExceptionHandling.AbpExceptionFilter - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 118
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 89
+   at Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Validation\AbpValidationActionFilter.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+WARN  2018-06-29 15:12:12,110 [19   ] Mvc.ExceptionHandling.AbpExceptionFilter - There are 1 validation errors:
+WARN  2018-06-29 15:12:12,110 [19   ] Mvc.ExceptionHandling.AbpExceptionFilter - The field MaxResultCount must be between 1 and 500. (MaxResultCount)
+INFO  2018-06-29 15:12:12,116 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.Web.Mvc.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) in 315.3962ms
+ERROR 2018-06-29 15:12:12,231 [19   ] nostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 118
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 89
+   at Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Validation\AbpValidationActionFilter.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at MPACore.PhoneBook.Authentication.JwtBearer.JwtTokenMiddleware.<>c__DisplayClass0_0.<<UseJwtTokenMiddleware>b__0>d.MoveNext() in E:\C#\ABP\MPACore.PhoneBook\MPACore.PhoneBook\aspnet-core\src\MPACore.PhoneBook.Web.Core\Authentication\JwtBearer\JwtTokenMiddleware.cs:line 22
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  2018-06-29 15:12:12,327 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 534.4051ms 500 text/html; charset=utf-8
+DEBUG 2018-06-29 15:12:17,458 [6    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: vb4uSjRilZph00HcFYDMWA
+INFO  2018-06-29 15:12:17,468 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 45460.3862ms 200 text/event-stream
+INFO  2018-06-29 15:12:18,758 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Persons?SkipCount=0&&maxResultcount=100  
+INFO  2018-06-29 15:12:18,763 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Persons", area = ""}. Executing action MPACore.PhoneBook.Web.Mvc.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc)
+INFO  2018-06-29 15:12:18,791 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACore.PhoneBook.Web.Mvc.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) with arguments (MPACore.PhoneBook.PhoneBooks.Dtos.GetPersonInput) - Validation state: Valid
+INFO  2018-06-29 15:12:19,558 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MPACore.PhoneBook.Web.Mvc.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult in 763.0414ms.
+INFO  2018-06-29 15:12:19,777 [21   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2018-06-29 15:12:19,788 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'Address' in localization source 'PhoneBook'!
+WARN  2018-06-29 15:12:19,789 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'CreationTime' in localization source 'PhoneBook'!
+WARN  2018-06-29 15:12:19,792 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'CreatePerson' in localization source 'PhoneBook'!
+WARN  2018-06-29 15:12:19,806 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'PhoneNumberType' in localization source 'PhoneBook'!
+WARN  2018-06-29 15:12:19,813 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'PhoneNumber' in localization source 'PhoneBook'!
+WARN  2018-06-29 15:12:19,813 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'Addrss' in localization source 'PhoneBook'!
+INFO  2018-06-29 15:12:19,916 [11   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 306.605ms.
+INFO  2018-06-29 15:12:19,919 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.Web.Mvc.Controllers.PersonsController.Index (MPACore.PhoneBook.Web.Mvc) in 1152.3859ms
+INFO  2018-06-29 15:12:19,922 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1165.3911ms 200 text/html; charset=utf-8
+INFO  2018-06-29 15:12:19,941 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-validation/src/localization/messages_zh_Hans.js  
+INFO  2018-06-29 15:12:19,944 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636658818742662370  
+INFO  2018-06-29 15:12:19,951 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 10.8174ms 404 
+INFO  2018-06-29 15:12:19,960 [28   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2018-06-29 15:12:19,964 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Persons/Index.js?v=kEGsaRKC3KDf5CnZyUc7_mhqlIhVsO6W9p6bV0aYLv0  
+INFO  2018-06-29 15:12:20,003 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Persons/Index.js was not modified
+INFO  2018-06-29 15:12:20,021 [28   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2018-06-29 15:12:20,032 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 48.6153ms 304 application/javascript
+INFO  2018-06-29 15:12:20,037 [28   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 3.6762ms.
+INFO  2018-06-29 15:12:20,044 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-validation/src/localization/messages_zh_Hans.js  
+INFO  2018-06-29 15:12:20,061 [28   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2018-06-29 15:12:20,070 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636658818742662370  
+INFO  2018-06-29 15:12:20,071 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 19.9094ms 404 
+INFO  2018-06-29 15:12:20,081 [28   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 100.0341ms
+INFO  2018-06-29 15:12:20,082 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2018-06-29 15:12:20,103 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 145.0068ms 200 application/x-javascript
+INFO  2018-06-29 15:12:20,110 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - Validation state: Valid
+INFO  2018-06-29 15:12:20,133 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 18.2485ms.
+INFO  2018-06-29 15:12:20,134 [19   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2018-06-29 15:12:20,136 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 52.1612ms
+INFO  2018-06-29 15:12:20,145 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 180.0611ms 200 application/x-javascript; charset=utf-8
+INFO  2018-06-29 15:12:20,154 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2018-06-29 15:12:20,159 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6.4028ms 200 application/json
+INFO  2018-06-29 15:12:20,197 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2018-06-29 15:12:20,209 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14.4827ms 200 application/json
+INFO  2018-06-29 15:12:20,214 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=PxhPEyveK7Qv_Ied43S9HA  
+INFO  2018-06-29 15:12:20,225 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/signalr?id=PxhPEyveK7Qv_Ied43S9HA text/plain;charset=UTF-8 32
+INFO  2018-06-29 15:12:20,236 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6.7282ms 200 text/plain
+INFO  2018-06-29 15:12:20,238 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/signalr?id=PxhPEyveK7Qv_Ied43S9HA text/plain;charset=UTF-8 65
+INFO  2018-06-29 15:12:20,241 [6    ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+INFO  2018-06-29 15:12:20,245 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 10.7916ms 200 text/plain
+DEBUG 2018-06-29 15:12:20,248 [6    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"PxhPEyveK7Qv_Ied43S9HA","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-06-29T15:12:20.2410106+08:00","Properties":{}}
+DEBUG 2018-06-29 15:12:20,249 [6    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: PxhPEyveK7Qv_Ied43S9HA
+INFO  2018-06-29 15:12:27,784 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/api/services/app/Person/GetPersonForEditAsync?id=3 application/json 
+INFO  2018-06-29 15:12:27,800 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetPersonForEditAsync", controller = "Person"}. Executing action MPACore.PhoneBook.PhoneBooks.PersonAppService.GetPersonForEditAsync (MPACore.PhoneBook.Application)
+INFO  2018-06-29 15:12:27,824 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACore.PhoneBook.PhoneBooks.PersonAppService.GetPersonForEditAsync (MPACore.PhoneBook.Application) with arguments (Abp.Application.Services.Dto.NullableIdDto) - Validation state: Valid
+INFO  2018-06-29 15:12:27,926 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MPACore.PhoneBook.PhoneBooks.PersonAppService.GetPersonForEditAsync (MPACore.PhoneBook.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 99.6857ms.
+INFO  2018-06-29 15:12:27,986 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-06-29 15:12:28,008 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.PhoneBooks.PersonAppService.GetPersonForEditAsync (MPACore.PhoneBook.Application) in 204.7524ms
+INFO  2018-06-29 15:12:28,010 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 225.6226ms 200 application/json; charset=utf-8
+INFO  2018-06-29 15:12:33,602 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/api/services/app/Person/GetPersonForEditAsync?id=4 application/json 
+INFO  2018-06-29 15:12:33,615 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetPersonForEditAsync", controller = "Person"}. Executing action MPACore.PhoneBook.PhoneBooks.PersonAppService.GetPersonForEditAsync (MPACore.PhoneBook.Application)
+INFO  2018-06-29 15:12:33,643 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method MPACore.PhoneBook.PhoneBooks.PersonAppService.GetPersonForEditAsync (MPACore.PhoneBook.Application) with arguments (Abp.Application.Services.Dto.NullableIdDto) - Validation state: Valid
+INFO  2018-06-29 15:12:33,690 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method MPACore.PhoneBook.PhoneBooks.PersonAppService.GetPersonForEditAsync (MPACore.PhoneBook.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 44.9928ms.
+INFO  2018-06-29 15:12:33,734 [21   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-06-29 15:12:33,738 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action MPACore.PhoneBook.PhoneBooks.PersonAppService.GetPersonForEditAsync (MPACore.PhoneBook.Application) in 119.2611ms
+INFO  2018-06-29 15:12:33,742 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 141.5405ms 200 application/json; charset=utf-8
+DEBUG 2018-06-29 17:32:07,959 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-06-29 17:32:07,978 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-06-29 17:32:07,993 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.Web.Startup.PhoneBookWebMvcModule, MPACore.PhoneBook.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-29 17:32:07,995 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.PhoneBookWebCoreModule, MPACore.PhoneBook.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-29 17:32:07,996 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.PhoneBookApplicationModule, MPACore.PhoneBook.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-29 17:32:07,996 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.PhoneBookCoreModule, MPACore.PhoneBook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-29 17:32:07,996 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-29 17:32:07,996 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-29 17:32:07,996 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-29 17:32:07,997 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-29 17:32:07,997 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MPACore.PhoneBook.EntityFrameworkCore.PhoneBookEntityFrameworkModule, MPACore.PhoneBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-29 17:32:07,997 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-29 17:32:07,997 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-29 17:32:07,998 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-29 17:32:07,998 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-29 17:32:07,998 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-29 17:32:07,998 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-29 17:32:08,001 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-06-29 17:32:08,050 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-06-29 17:32:08,050 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-06-29 17:32:08,050 [1    ] o.Configuration.LanguageManagementConfig - Converted PhoneBook (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-06-29 17:32:08,050 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-06-29 17:32:08,287 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MPACore.PhoneBook.EntityFrameworkCore.PhoneBookDbContext, MPACore.PhoneBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-06-29 17:32:08,608 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-06-29 17:32:08,625 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-06-29 17:32:08,633 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-06-29 17:32:08,636 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: PhoneBook
+DEBUG 2018-06-29 17:32:08,640 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-06-29 17:32:08,668 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-06-29 17:32:08,704 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 15 classes define auto mapping attributes
+DEBUG 2018-06-29 17:32:08,704 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-06-29 17:32:08,707 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Users.Dto.CreateUserDto
+DEBUG 2018-06-29 17:32:08,707 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Users.Dto.UserDto
+DEBUG 2018-06-29 17:32:08,707 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-06-29 17:32:08,707 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-06-29 17:32:08,707 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Roles.Dto.CreateRoleDto
+DEBUG 2018-06-29 17:32:08,707 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Roles.Dto.PermissionDto
+DEBUG 2018-06-29 17:32:08,707 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Roles.Dto.RoleDto
+DEBUG 2018-06-29 17:32:08,708 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.PhoneNumber.PhoneNumberEditDto
+DEBUG 2018-06-29 17:32:08,708 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.PhoneNumber.PhoneNumberListDto
+DEBUG 2018-06-29 17:32:08,708 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.PhoneBooks.Dtos.PersonEditDto
+DEBUG 2018-06-29 17:32:08,708 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.PhoneBooks.Dtos.PersonListDto
+DEBUG 2018-06-29 17:32:08,708 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-06-29 17:32:08,708 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.MultiTenancy.Dto.TenantDto
+DEBUG 2018-06-29 17:32:08,708 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MPACore.PhoneBook.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+INFO  2018-06-29 17:32:11,997 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2018-06-29 17:32:13,051 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1057.102ms 200 application/json
+INFO  2018-06-29 17:32:13,052 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=wsHznBvFw1WRviDuavzjLA  
+INFO  2018-06-29 17:32:13,105 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/signalr?id=wsHznBvFw1WRviDuavzjLA text/plain;charset=UTF-8 32
+INFO  2018-06-29 17:32:13,138 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 32.9117ms 200 text/plain
+INFO  2018-06-29 17:32:13,165 [10   ] .AspNetCore.SignalR.HubConnectionContext - Completed connection handshake. Using HubProtocol 'json'.
+DEBUG 2018-06-29 17:32:13,258 [10   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"wsHznBvFw1WRviDuavzjLA","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2018-06-29T17:32:13.1810593+08:00","Properties":{}}

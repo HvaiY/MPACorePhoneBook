@@ -9,6 +9,7 @@ namespace MPACore.PhoneBook.PhoneBooks.PhoneNumbers
     /// <summary>
     /// 电话号码
     /// </summary>
+    /// Entity<long>实体Id(表ID)自动增长也可以是Entity<Guid>,IHasCreationTime创建时间
     public class PhoneNumber : Entity<long>, IHasCreationTime
     {
         /// <summary>
@@ -19,6 +20,7 @@ namespace MPACore.PhoneBook.PhoneBooks.PhoneNumbers
         public string Number { get; set; }
         /// <summary>
         /// 电话类型
+        /// 一个自定义枚举类型 手机：  Mobile=1, 家庭电话： Home=2, 公司：Company=3
         /// </summary>
         public PhoneNumberType PhoneType { get; set; }
 

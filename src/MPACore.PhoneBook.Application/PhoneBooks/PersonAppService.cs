@@ -12,16 +12,14 @@ using Abp.UI;
 
 namespace MPACore.PhoneBook.PhoneBooks
 {
-    public class PersonAppService : PhoneBookAppServiceBase, IPersonAppService//该父类继承于ApplicationService 而它实现IApplicationService
+    public class PersonAppService : PhoneBookAppServiceBase, IPersonAppService//该父类继承于ApplicationService 而它实现ApplicationService
     {
-
         private readonly IRepository<Person> _repository;
         //注入关于Person的仓储
         public PersonAppService(IRepository<Person> repository)
         {
             _repository = repository;
         }
-
         public async Task<IPagedResult<PersonListDto>> GetPagedPersonAsync(GetPersonInput input)
         {
             //   var query = _repository.GetAll();//仅仅返回Person信息（不包含PhoneNumbers）
@@ -36,7 +34,6 @@ namespace MPACore.PhoneBook.PhoneBooks
             //封装成IPagedResult<PersonListDto> 返回
             return new PagedResultDto<PersonListDto>(personCount, dtos);
         }
-
         public async Task DeletePersonAsync(EntityDto input)
         {
             var entity = await _repository.GetAsync(input.Id);
@@ -47,7 +44,6 @@ namespace MPACore.PhoneBook.PhoneBooks
 
             await _repository.DeleteAsync(input.Id);
         }
-
         public async Task<PersonListDto> GetPersonByIdAsync(NullableIdDto input)
         {
             if (input.Id.HasValue)
@@ -62,7 +58,6 @@ namespace MPACore.PhoneBook.PhoneBooks
                 throw new UserFriendlyException("没有这个人，你是不是不记得他的Id了 ");
             }
         }
-
         public async Task<GetPersonForEditOutput> GetPersonForEditAsync(NullableIdDto input)
         {
             var output = new GetPersonForEditOutput();
@@ -82,7 +77,6 @@ namespace MPACore.PhoneBook.PhoneBooks
             output.Person = peronEditDto;
             return output;
         }
-
         public async Task CreateOrUpdatePersonAsync(CreateOrUpdatePersonInput input)
         {
             if (input.PersonEditDto.Id.HasValue)
@@ -93,9 +87,7 @@ namespace MPACore.PhoneBook.PhoneBooks
             {
                 await CreatePersonAsync(input.PersonEditDto);
             }
-
         }
-
         protected async Task UpdatePersonAsync(PersonEditDto input)
         {
             var entity = await _repository.GetAsync(input.Id.Value);
