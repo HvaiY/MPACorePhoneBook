@@ -13,6 +13,15 @@
                 return;
             }
             var personEditDto = _$form.serializeFormToObject();//序列化表单为对象
+
+            personEditDto.PhoneNumbers = [];
+            var phoneNumber = {};
+
+            phoneNumber.PhoneType = personEditDto.PhoneNumberType;
+            phoneNumber.Number = personEditDto.PhoneNumberType;
+
+            personEditDto.PhoneNumbers.push(phoneNumber);
+
             abp.ui.setBusy(_$modal);//显示一个提交后的进度条
             //约定大于配置
             _personService.createOrUpdatePerson({ personEditDto }).done(function () {
@@ -53,12 +62,20 @@
             e.preventDefault();
             var personId = $(this).attr("data-person-id");
             _personService.getPersonForEdit({ id: personId }).done(function (data) {
-                $("input[name=Id]").attr(data.person.id);
-                $("input[name=Name]").attr(data.person.name);
-                $("input[name=EmailAddress]").attr(data.person.emailAddress);
-                $("input[name=Address]").attr(data.person.address);
+                $("input[name=Id]").val(data.person.id);
+                $("input[name=Name]").val(data.person.name).parent().addClass('focused');
+                $("input[name=EmailAddress]").val(data.person.emailAddress).parent().addClass('focused');
+                $("input[name=PhoneNumber]").val(data.person.phoneNumbers[0].number).parent().addClass('focused');
+                $("input[name=PhoneNumberType]").selectpicker('val', data.person.phoneNumbers[0].phoneType);
+                $("input[name=Address]").val(data.person.address).parent().addClass('focused');
                 //4-4节
             });
         });
+        //弹出的模态框取消时间 取消就重置form表单
+        $("#PersonCreateModal").on("hide.bs.modal",
+            function () {
+                _$form[0].reset();
+
+            });
     });
 })();//闭包形式的js 之后的引用不会有太大问题(不会影响js中的其他变量 方法等)

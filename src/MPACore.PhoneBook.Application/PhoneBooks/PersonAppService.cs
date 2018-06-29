@@ -24,7 +24,11 @@ namespace MPACore.PhoneBook.PhoneBooks
 
         public async Task<IPagedResult<PersonListDto>> GetPagedPersonAsync(GetPersonInput input)
         {
-            var query = _repository.GetAll();
+            //   var query = _repository.GetAll();//仅仅返回Person信息（不包含PhoneNumbers）
+            //方式一
+            //  var query = _repository.GetAll().Include(a => a.PhoneNumbers);
+            //方式二
+            var query = _repository.GetAllIncluding(a => a.PhoneNumbers);
             var personCount = await query.CountAsync();
             var persons = await query.OrderBy(input.Sorting).PageBy(input).ToListAsync();
             //自动映射
@@ -48,7 +52,9 @@ namespace MPACore.PhoneBook.PhoneBooks
         {
             if (input.Id.HasValue)
             {
-                var entity = await _repository.GetAsync(input.Id.Value);
+                // var entity = await _repository.GetAsync(input.Id.Value); 不包含PhoneNumber
+                var entity = await _repository.GetAllIncluding(a => a.PhoneNumbers)
+                    .FirstOrDefaultAsync(a => a.Id == input.Id.Value);
                 return entity.MapTo<PersonListDto>();
             }
             else
@@ -56,14 +62,16 @@ namespace MPACore.PhoneBook.PhoneBooks
                 throw new UserFriendlyException("没有这个人，你是不是不记得他的Id了 ");
             }
         }
-       
+
         public async Task<GetPersonForEditOutput> GetPersonForEditAsync(NullableIdDto input)
         {
             var output = new GetPersonForEditOutput();
             PersonEditDto peronEditDto;
             if (input.Id.HasValue)
             {
-                var entity = await _repository.GetAsync(input.Id.Value);
+                //  var entity = await _repository.GetAsync(input.Id.Value);
+                var entity = await _repository.GetAllIncluding(a => a.PhoneNumbers)
+                    .FirstOrDefaultAsync(a => a.Id == input.Id.Value);
                 peronEditDto = entity.MapTo<PersonEditDto>();
             }
             else

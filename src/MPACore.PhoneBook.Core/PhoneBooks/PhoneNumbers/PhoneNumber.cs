@@ -15,7 +15,7 @@ namespace MPACore.PhoneBook.PhoneBooks.PhoneNumbers
         /// 电话号码
         /// </summary>
         [Required]
-        [MaxLength(11)]
+        [MaxLength(PhoneBookConsts.MaxPhoneNumberLength)]
         public string Number { get; set; }
         /// <summary>
         /// 电话类型

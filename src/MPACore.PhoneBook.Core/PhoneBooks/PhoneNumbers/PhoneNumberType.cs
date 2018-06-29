@@ -9,14 +9,14 @@ namespace MPACore.PhoneBook.PhoneBooks.PhoneNumbers
         /// <summary>
         /// 手机
         /// </summary>
-        Mobile,
+        Mobile=1,
         /// <summary>
         /// 家庭电话
         /// </summary>
-        Home,
+        Home=2,
         /// <summary>
         /// 公司
         /// </summary>
-        Company
+        Company=3
     }
 }

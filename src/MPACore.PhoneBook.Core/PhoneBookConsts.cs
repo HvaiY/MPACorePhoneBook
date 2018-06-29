@@ -10,5 +10,6 @@
         public const int MaxNameLength = 50;
         public const int MaxEmailLegth = 80;
         public const int MaxAddressLength = 200;
+        public const int MaxPhoneNumberLength = 11;
     }
 }
